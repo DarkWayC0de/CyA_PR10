@@ -1,0 +1,153 @@
+\hypertarget{class_cy_a_1_1_g_r}{}\section{Referencia de la Clase CyA\+:\+:GR}
+\label{class_cy_a_1_1_g_r}\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+
+
+Clase para el uso de Gramaticas.  
+
+
+
+
+{\ttfamily \#include $<$G\+R.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_a9ff6c13befbda8a5f82ae9e30e976a2b}\label{class_cy_a_1_1_g_r_a9ff6c13befbda8a5f82ae9e30e976a2b}} 
+\mbox{\hyperlink{class_cy_a_1_1_g_r_a9ff6c13befbda8a5f82ae9e30e976a2b}{GR}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_afad22fec67e373f85bce6860fd19e788}\label{class_cy_a_1_1_g_r_afad22fec67e373f85bce6860fd19e788}} 
+\mbox{\hyperlink{class_cy_a_1_1_g_r_afad22fec67e373f85bce6860fd19e788}{$\sim$\+GR}} ()
+\begin{DoxyCompactList}\small\item\em Destructor por defecto de \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cy_a_1_1_g_r_ae69828146c07258ec79c26fcc85b78f6}{cargar}} (char nombrefichero\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funcion para cargar una gramatica desde fichero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cy_a_1_1_g_r_a8d131c8d2a28fb5f949499b46336bab1}{cargardesde\+D\+FA}} (\mbox{\hyperlink{class_cy_a_1_1_d_f_a}{D\+FA}} dfa\+\_\+)
+\begin{DoxyCompactList}\small\item\em Funcion para cargar una gramatica desde un dfa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cy_a_1_1_g_r_a23ae98bf2b0df0b588bc84d7d645891f}{exportar}} (char nombrefichero\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funcion para exportar la gramatica a un fichero. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{class_cy_a_1_1_g_r_aedf100a8dd8e64f68142e505e5bc75cf}{write}} (std\+::ostream \&os)
+\begin{DoxyCompactList}\small\item\em Imprime una gramaticanateriormente cargada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}} \mbox{\hyperlink{class_cy_a_1_1_g_r_acb16878bc707d77126a28f92a2355619}{eliminarprvacias}} ()
+\begin{DoxyCompactList}\small\item\em Elimina las produciones vacias de la gramatica llamante. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}} \mbox{\hyperlink{class_cy_a_1_1_g_r_ab13f68d53117a520efdb802e6ab3b99a}{eliminarprunitarias}} (void)
+\begin{DoxyCompactList}\small\item\em Elimina las produciones unitarias de la gramatica llamante. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cy_a_1_1_g_r_abed49d1b06c6007e69c2afc55c931ada}{operator!=}} (const \mbox{\hyperlink{class_cy_a_1_1_g_r}{Cy\+A\+::\+GR}} \&a) const
+\begin{DoxyCompactList}\small\item\em Sobrecarga del operador de no igual para \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Clase para el uso de Gramaticas. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_ae69828146c07258ec79c26fcc85b78f6}\label{class_cy_a_1_1_g_r_ae69828146c07258ec79c26fcc85b78f6}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!cargar@{cargar}}
+\index{cargar@{cargar}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{cargar()}{cargar()}}
+{\footnotesize\ttfamily void Cy\+A\+::\+G\+R\+::cargar (\begin{DoxyParamCaption}\item[{char}]{nombrefichero\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funcion para cargar una gramatica desde fichero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nombrefichero} & Nombre del fichera de la gramatica \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_a8d131c8d2a28fb5f949499b46336bab1}\label{class_cy_a_1_1_g_r_a8d131c8d2a28fb5f949499b46336bab1}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!cargardesde\+D\+FA@{cargardesde\+D\+FA}}
+\index{cargardesde\+D\+FA@{cargardesde\+D\+FA}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{cargardesde\+D\+F\+A()}{cargardesdeDFA()}}
+{\footnotesize\ttfamily void Cy\+A\+::\+G\+R\+::cargardesde\+D\+FA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cy_a_1_1_d_f_a}{Cy\+A\+::\+D\+FA}}}]{A }\end{DoxyParamCaption})}
+
+
+
+Funcion para cargar una gramatica desde un dfa. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dfa\+\_\+} & Dfa para cargar la gramatica \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_ab13f68d53117a520efdb802e6ab3b99a}\label{class_cy_a_1_1_g_r_ab13f68d53117a520efdb802e6ab3b99a}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!eliminarprunitarias@{eliminarprunitarias}}
+\index{eliminarprunitarias@{eliminarprunitarias}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{eliminarprunitarias()}{eliminarprunitarias()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}} Cy\+A\+::\+G\+R\+::eliminarprunitarias (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Elimina las produciones unitarias de la gramatica llamante. 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve la nueva gramatica 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_acb16878bc707d77126a28f92a2355619}\label{class_cy_a_1_1_g_r_acb16878bc707d77126a28f92a2355619}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!eliminarprvacias@{eliminarprvacias}}
+\index{eliminarprvacias@{eliminarprvacias}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{eliminarprvacias()}{eliminarprvacias()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}} Cy\+A\+::\+G\+R\+::eliminarprvacias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Elimina las produciones vacias de la gramatica llamante. 
+
+\begin{DoxyReturn}{Devuelve}
+La nueva gramatica 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_a23ae98bf2b0df0b588bc84d7d645891f}\label{class_cy_a_1_1_g_r_a23ae98bf2b0df0b588bc84d7d645891f}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!exportar@{exportar}}
+\index{exportar@{exportar}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{exportar()}{exportar()}}
+{\footnotesize\ttfamily void Cy\+A\+::\+G\+R\+::exportar (\begin{DoxyParamCaption}\item[{char}]{nombrefichero\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funcion para exportar la gramatica a un fichero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nombrefichero} & Nombre del fichero a exportar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_abed49d1b06c6007e69c2afc55c931ada}\label{class_cy_a_1_1_g_r_abed49d1b06c6007e69c2afc55c931ada}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily int Cy\+A\+::\+G\+R\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cy_a_1_1_g_r}{Cy\+A\+::\+GR}} \&}]{a }\end{DoxyParamCaption}) const}
+
+
+
+Sobrecarga del operador de no igual para \mbox{\hyperlink{class_cy_a_1_1_g_r}{GR}}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & Gramatica \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+boleano solucion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cy_a_1_1_g_r_aedf100a8dd8e64f68142e505e5bc75cf}\label{class_cy_a_1_1_g_r_aedf100a8dd8e64f68142e505e5bc75cf}} 
+\index{Cy\+A\+::\+GR@{Cy\+A\+::\+GR}!write@{write}}
+\index{write@{write}!Cy\+A\+::\+GR@{Cy\+A\+::\+GR}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily std\+::ostream \& Cy\+A\+::\+G\+R\+::write (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption})}
+
+
+
+Imprime una gramaticanateriormente cargada. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em os} & parametro de imprecion \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+El parametro de imprecion 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_g_r_8h}{G\+R.\+h}}\item 
+src/G\+R.\+cpp\end{DoxyCompactItemize}

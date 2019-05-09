@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pr10: Fichero Fuente include/regla.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pr10
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simplificacion de Gramáticas Independientes del Contexto (eliminación de producciones vacías y unitarias)</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">regla.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="regla_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef PR9_REGLA_H</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define PR9_REGLA_H</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_cy_a.html">CyA</a> {</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_cy_a_1_1regla.html">   23</a></span>&#160;  <span class="keyword">class </span><a class="code" href="class_cy_a_1_1regla.html">regla</a> {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_cy_a_1_1regla.html#acee8a4eb2a2905af6dd1c3236261d1cc">   29</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="class_cy_a_1_1regla.html#acee8a4eb2a2905af6dd1c3236261d1cc">simbolo_</a>;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_cy_a_1_1regla.html#a7bb5b7c78939e006e12a908799d36028">   33</a></span>&#160;    std::vector&lt;std::string&gt; <a class="code" href="class_cy_a_1_1regla.html#a7bb5b7c78939e006e12a908799d36028">regla_</a>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_cy_a_1_1regla.html#aa5bc78631a7e4690fa64b393276876fb">regla</a>();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_cy_a_1_1regla.html#a67058ee1235792dc7b59dce849888349">~regla</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_cy_a_1_1regla.html#a0959c90f17fdc569bec1faeb9af04d41">operator==</a>(<span class="keyword">const</span> <a class="code" href="class_cy_a_1_1regla.html">regla</a> &amp;a) <span class="keyword">const</span>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_cy_a_1_1regla.html#a9084203e31007ef2a0803b26da371e04">regla_duplicada</a>(std::string);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  };</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif //PR9_REGLA_H</span></div><div class="ttc" id="class_cy_a_1_1regla_html_acee8a4eb2a2905af6dd1c3236261d1cc"><div class="ttname"><a href="class_cy_a_1_1regla.html#acee8a4eb2a2905af6dd1c3236261d1cc">CyA::regla::simbolo_</a></div><div class="ttdeci">char simbolo_</div><div class="ttdoc">Variable para guardar el simbolo_ de la regla. </div><div class="ttdef"><b>Definition:</b> regla.h:29</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html"><div class="ttname"><a href="class_cy_a_1_1regla.html">CyA::regla</a></div><div class="ttdoc">Clase para almacernar una regla de una gramatica. </div><div class="ttdef"><b>Definition:</b> regla.h:23</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html_a7bb5b7c78939e006e12a908799d36028"><div class="ttname"><a href="class_cy_a_1_1regla.html#a7bb5b7c78939e006e12a908799d36028">CyA::regla::regla_</a></div><div class="ttdeci">std::vector&lt; std::string &gt; regla_</div><div class="ttdoc">Variable para guardar las diferentes alternativas de produciones. </div><div class="ttdef"><b>Definition:</b> regla.h:33</div></div>
+<div class="ttc" id="namespace_cy_a_html"><div class="ttname"><a href="namespace_cy_a.html">CyA</a></div><div class="ttdoc">Uso del namespace CyA. </div><div class="ttdef"><b>Definition:</b> DFA.h:13</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html_aa5bc78631a7e4690fa64b393276876fb"><div class="ttname"><a href="class_cy_a_1_1regla.html#aa5bc78631a7e4690fa64b393276876fb">CyA::regla::regla</a></div><div class="ttdeci">regla()</div><div class="ttdoc">Constructor por defecto de regla. </div><div class="ttdef"><b>Definition:</b> regla.cpp:7</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html_a9084203e31007ef2a0803b26da371e04"><div class="ttname"><a href="class_cy_a_1_1regla.html#a9084203e31007ef2a0803b26da371e04">CyA::regla::regla_duplicada</a></div><div class="ttdeci">bool regla_duplicada(std::string)</div><div class="ttdoc">Berifica si una regla esta duplicada. </div><div class="ttdef"><b>Definition:</b> regla.cpp:18</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html_a0959c90f17fdc569bec1faeb9af04d41"><div class="ttname"><a href="class_cy_a_1_1regla.html#a0959c90f17fdc569bec1faeb9af04d41">CyA::regla::operator==</a></div><div class="ttdeci">int operator==(const regla &amp;a) const</div><div class="ttdoc">Sobrecargade operador == para regla. </div><div class="ttdef"><b>Definition:</b> regla.cpp:13</div></div>
+<div class="ttc" id="class_cy_a_1_1regla_html_a67058ee1235792dc7b59dce849888349"><div class="ttname"><a href="class_cy_a_1_1regla.html#a67058ee1235792dc7b59dce849888349">CyA::regla::~regla</a></div><div class="ttdeci">~regla()</div><div class="ttdoc">Destructor por defecto de regla. </div><div class="ttdef"><b>Definition:</b> regla.cpp:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

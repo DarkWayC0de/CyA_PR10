@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Pr10: Fichero Fuente include/GR.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Pr10
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simplificacion de Gramáticas Independientes del Contexto (eliminación de producciones vacías y unitarias)</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">GR.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_r_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef PR9_GR_H</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define PR9_GR_H</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;DFA.h&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="regla_8h.html">regla.h</a>&quot;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_cy_a.html">CyA</a> {</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_cy_a_1_1_g_r.html">   23</a></span>&#160;  <span class="keyword">class </span><a class="code" href="class_cy_a_1_1_g_r.html">GR</a> {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keyword">private</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    std::vector&lt;char&gt; simbolosterminales_;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    std::vector&lt;char&gt; simbolosnoterminales_;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::vector&lt;regla&gt; reglas_;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">char</span> calculartermino(<span class="keywordtype">unsigned</span> arranque, <span class="keywordtype">unsigned</span> actual);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">bool</span> pertenece( <span class="keywordtype">char</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::vector&lt;char&gt; reglas_anulables(std::vector&lt;char&gt; &amp;);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> desarollo_eliminacion_anulables(std::vector&lt;char&gt;);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">public</span>:</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_cy_a_1_1_g_r.html#a9ff6c13befbda8a5f82ae9e30e976a2b">GR</a> ();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="class_cy_a_1_1_g_r.html#afad22fec67e373f85bce6860fd19e788">~GR</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_cy_a_1_1_g_r.html#ae69828146c07258ec79c26fcc85b78f6">cargar</a>(<span class="keywordtype">char</span> nombrefichero[]);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_cy_a_1_1_g_r.html#a8d131c8d2a28fb5f949499b46336bab1">cargardesdeDFA</a>(<a class="code" href="class_cy_a_1_1_d_f_a.html">DFA</a> dfa_);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_cy_a_1_1_g_r.html#a23ae98bf2b0df0b588bc84d7d645891f">exportar</a>(<span class="keywordtype">char</span> nombrefichero[]);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::ostream&amp; <a class="code" href="class_cy_a_1_1_g_r.html#aedf100a8dd8e64f68142e505e5bc75cf">write</a>(std::ostream &amp;os);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="class_cy_a_1_1_g_r.html">GR</a> <a class="code" href="class_cy_a_1_1_g_r.html#acb16878bc707d77126a28f92a2355619">eliminarprvacias</a>();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="class_cy_a_1_1_g_r.html">GR</a> <a class="code" href="class_cy_a_1_1_g_r.html#ab13f68d53117a520efdb802e6ab3b99a">eliminarprunitarias</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_cy_a_1_1_g_r.html#abed49d1b06c6007e69c2afc55c931ada">operator!=</a>(<span class="keyword">const</span> <a class="code" href="class_cy_a_1_1_g_r.html">CyA::GR</a> &amp;a) <span class="keyword">const</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  };</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#endif //PR9_GR_H</span></div><div class="ttc" id="class_cy_a_1_1_g_r_html_abed49d1b06c6007e69c2afc55c931ada"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#abed49d1b06c6007e69c2afc55c931ada">CyA::GR::operator!=</a></div><div class="ttdeci">int operator!=(const CyA::GR &amp;a) const</div><div class="ttdoc">Sobrecarga del operador de no igual para GR. </div><div class="ttdef"><b>Definition:</b> GR.cpp:207</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_ab13f68d53117a520efdb802e6ab3b99a"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#ab13f68d53117a520efdb802e6ab3b99a">CyA::GR::eliminarprunitarias</a></div><div class="ttdeci">GR eliminarprunitarias(void)</div><div class="ttdoc">Elimina las produciones unitarias de la gramatica llamante. </div><div class="ttdef"><b>Definition:</b> GR.cpp:213</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_a8d131c8d2a28fb5f949499b46336bab1"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#a8d131c8d2a28fb5f949499b46336bab1">CyA::GR::cargardesdeDFA</a></div><div class="ttdeci">void cargardesdeDFA(DFA dfa_)</div><div class="ttdoc">Funcion para cargar una gramatica desde un dfa. </div><div class="ttdef"><b>Definition:</b> GR.cpp:55</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_aedf100a8dd8e64f68142e505e5bc75cf"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#aedf100a8dd8e64f68142e505e5bc75cf">CyA::GR::write</a></div><div class="ttdeci">std::ostream &amp; write(std::ostream &amp;os)</div><div class="ttdoc">Imprime una gramaticanateriormente cargada. </div><div class="ttdef"><b>Definition:</b> GR.cpp:138</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_a23ae98bf2b0df0b588bc84d7d645891f"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#a23ae98bf2b0df0b588bc84d7d645891f">CyA::GR::exportar</a></div><div class="ttdeci">void exportar(char nombrefichero[])</div><div class="ttdoc">Funcion para exportar la gramatica a un fichero. </div><div class="ttdef"><b>Definition:</b> GR.cpp:125</div></div>
+<div class="ttc" id="regla_8h_html"><div class="ttname"><a href="regla_8h.html">regla.h</a></div><div class="ttdoc">Clase para almacenar reglas de una gramatica. </div></div>
+<div class="ttc" id="namespace_cy_a_html"><div class="ttname"><a href="namespace_cy_a.html">CyA</a></div><div class="ttdoc">Uso del namespace CyA. </div><div class="ttdef"><b>Definition:</b> DFA.h:13</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_afad22fec67e373f85bce6860fd19e788"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#afad22fec67e373f85bce6860fd19e788">CyA::GR::~GR</a></div><div class="ttdeci">~GR()</div><div class="ttdoc">Destructor por defecto de GR. </div><div class="ttdef"><b>Definition:</b> GR.cpp:7</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_a9ff6c13befbda8a5f82ae9e30e976a2b"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#a9ff6c13befbda8a5f82ae9e30e976a2b">CyA::GR::GR</a></div><div class="ttdeci">GR()</div><div class="ttdoc">Constructor por defecto de GR. </div><div class="ttdef"><b>Definition:</b> GR.cpp:4</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_ae69828146c07258ec79c26fcc85b78f6"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#ae69828146c07258ec79c26fcc85b78f6">CyA::GR::cargar</a></div><div class="ttdeci">void cargar(char nombrefichero[])</div><div class="ttdoc">Funcion para cargar una gramatica desde fichero. </div><div class="ttdef"><b>Definition:</b> GR.cpp:10</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html_acb16878bc707d77126a28f92a2355619"><div class="ttname"><a href="class_cy_a_1_1_g_r.html#acb16878bc707d77126a28f92a2355619">CyA::GR::eliminarprvacias</a></div><div class="ttdeci">GR eliminarprvacias()</div><div class="ttdoc">Elimina las produciones vacias de la gramatica llamante. </div><div class="ttdef"><b>Definition:</b> GR.cpp:157</div></div>
+<div class="ttc" id="class_cy_a_1_1_d_f_a_html"><div class="ttname"><a href="class_cy_a_1_1_d_f_a.html">CyA::DFA</a></div><div class="ttdef"><b>Definition:</b> DFA.h:14</div></div>
+<div class="ttc" id="class_cy_a_1_1_g_r_html"><div class="ttname"><a href="class_cy_a_1_1_g_r.html">CyA::GR</a></div><div class="ttdoc">Clase para el uso de Gramaticas. </div><div class="ttdef"><b>Definition:</b> GR.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

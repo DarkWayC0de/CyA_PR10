@@ -1,0 +1,76 @@
+\hypertarget{class_cy_a_1_1regla}{}\section{Referencia de la Clase CyA\+:\+:regla}
+\label{class_cy_a_1_1regla}\index{Cy\+A\+::regla@{Cy\+A\+::regla}}
+
+
+Clase para almacernar una regla de una gramatica.  
+
+
+
+
+{\ttfamily \#include $<$regla.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cy_a_1_1regla_aa5bc78631a7e4690fa64b393276876fb}\label{class_cy_a_1_1regla_aa5bc78631a7e4690fa64b393276876fb}} 
+\mbox{\hyperlink{class_cy_a_1_1regla_aa5bc78631a7e4690fa64b393276876fb}{regla}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de regla. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cy_a_1_1regla_a67058ee1235792dc7b59dce849888349}\label{class_cy_a_1_1regla_a67058ee1235792dc7b59dce849888349}} 
+\mbox{\hyperlink{class_cy_a_1_1regla_a67058ee1235792dc7b59dce849888349}{$\sim$regla}} ()
+\begin{DoxyCompactList}\small\item\em Destructor por defecto de regla. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cy_a_1_1regla_a0959c90f17fdc569bec1faeb9af04d41}{operator==}} (const \mbox{\hyperlink{class_cy_a_1_1regla}{regla}} \&a) const
+\begin{DoxyCompactList}\small\item\em Sobrecargade operador == para regla. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_cy_a_1_1regla_a9084203e31007ef2a0803b26da371e04}{regla\+\_\+duplicada}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em Berifica si una regla esta duplicada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cy_a_1_1regla_acee8a4eb2a2905af6dd1c3236261d1cc}\label{class_cy_a_1_1regla_acee8a4eb2a2905af6dd1c3236261d1cc}} 
+char \mbox{\hyperlink{class_cy_a_1_1regla_acee8a4eb2a2905af6dd1c3236261d1cc}{simbolo\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Variable para guardar el simbolo\+\_\+ de la regla. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cy_a_1_1regla_a7bb5b7c78939e006e12a908799d36028}\label{class_cy_a_1_1regla_a7bb5b7c78939e006e12a908799d36028}} 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_cy_a_1_1regla_a7bb5b7c78939e006e12a908799d36028}{regla\+\_\+}}
+\begin{DoxyCompactList}\small\item\em Variable para guardar las diferentes alternativas de produciones. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Clase para almacernar una regla de una gramatica. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cy_a_1_1regla_a0959c90f17fdc569bec1faeb9af04d41}\label{class_cy_a_1_1regla_a0959c90f17fdc569bec1faeb9af04d41}} 
+\index{Cy\+A\+::regla@{Cy\+A\+::regla}!operator==@{operator==}}
+\index{operator==@{operator==}!Cy\+A\+::regla@{Cy\+A\+::regla}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily int Cy\+A\+::regla\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cy_a_1_1regla}{regla}} \&}]{a }\end{DoxyParamCaption}) const}
+
+
+
+Sobrecargade operador == para regla. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & paramaetro regla \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+devuelve boleano solucion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cy_a_1_1regla_a9084203e31007ef2a0803b26da371e04}\label{class_cy_a_1_1regla_a9084203e31007ef2a0803b26da371e04}} 
+\index{Cy\+A\+::regla@{Cy\+A\+::regla}!regla\+\_\+duplicada@{regla\+\_\+duplicada}}
+\index{regla\+\_\+duplicada@{regla\+\_\+duplicada}!Cy\+A\+::regla@{Cy\+A\+::regla}}
+\subsubsection{\texorpdfstring{regla\+\_\+duplicada()}{regla\_duplicada()}}
+{\footnotesize\ttfamily bool Cy\+A\+::regla\+::regla\+\_\+duplicada (\begin{DoxyParamCaption}\item[{std\+::string}]{a }\end{DoxyParamCaption})}
+
+
+
+Berifica si una regla esta duplicada. 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve un boleano con la solucion 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{regla_8h}{regla.\+h}}\item 
+src/regla.\+cpp\end{DoxyCompactItemize}
