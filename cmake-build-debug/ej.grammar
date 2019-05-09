@@ -1,0 +1,16 @@
+2
+a b
+12
+S A B C D E F G H I J K
+S -> A|AA|AAA
+A -> ABBa|ACa|a
+B -> ABa|Ab|~
+C -> d | B
+D -> CD|CdCEa
+E -> b|F
+F -> G
+G -> GH
+H -> I
+I -> J
+J -> K
+K -> ~

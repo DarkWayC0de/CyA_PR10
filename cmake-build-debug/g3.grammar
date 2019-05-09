@@ -1,0 +1,8 @@
+4
+a b c d
+4
+S A B C
+S -> Aa|B|D
+A -> aA|bA|B
+B -> b
+C -> abd

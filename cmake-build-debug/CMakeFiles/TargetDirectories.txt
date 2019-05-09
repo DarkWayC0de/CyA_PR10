@@ -1,0 +1,3 @@
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug/CMakeFiles/Pr10.dir
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug/CMakeFiles/edit_cache.dir

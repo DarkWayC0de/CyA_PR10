@@ -1,0 +1,9 @@
+8
+a b c d e f g h
+5
+S A B C D
+S -> aB
+A -> bcCCC|dA
+B -> e
+C -> fA
+D -> Dgh

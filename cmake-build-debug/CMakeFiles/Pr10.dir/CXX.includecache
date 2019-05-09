@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DFA.h
+iostream
+-
+set
+-
+Estado.h
+../include/Estado.h
+algorithm
+-
+
+../include/Estado.h
+vector
+-
+
+../include/GR.h
+DFA.h
+-
+fstream
+-
+regla.h
+../include/regla.h
+
+../include/regla.h
+vector
+-
+string
+-
+
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/GR.cpp
+GR.h
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/GR.h
+
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/main.cpp
+iostream
+-
+GR.h
+/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/GR.h
+

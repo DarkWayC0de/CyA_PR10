@@ -1,0 +1,9 @@
+8
+a b c d e f g h
+5
+S A B C D
+S -> aAb|cEB|CE
+A -> dBE|eeC
+B -> ff|D
+C -> gFB|ae
+D -> h

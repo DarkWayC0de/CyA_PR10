@@ -1,0 +1,9 @@
+3
+a b c
+5
+S A B C D
+S -> Aa|B|CD
+A -> BB|~
+B -> bbC|~
+C -> c|~
+D -> ~

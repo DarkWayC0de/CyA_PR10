@@ -1,0 +1,11 @@
+4
+a b c d
+7
+S A B C D E F
+S -> A|AA|AA
+A -> ABa|ACa|a
+B -> ABa|Ab|~
+C -> Cab|CC
+D -> CD|CdCEa
+E -> b
+F -> c

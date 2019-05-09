@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pr10.dir/src/DFA.cpp.o CMakeFiles/Pr10.dir/src/Estado.cpp.o CMakeFiles/Pr10.dir/src/GR.cpp.o CMakeFiles/Pr10.dir/src/main.cpp.o CMakeFiles/Pr10.dir/src/regla.cpp.o  -o Pr10 

@@ -1,0 +1,8 @@
+3
+a b c 
+4
+S A B C 
+S -> Aa | a | bbC | bb | c
+A -> BB | bbC | bb
+B -> bbC | bb
+C -> c

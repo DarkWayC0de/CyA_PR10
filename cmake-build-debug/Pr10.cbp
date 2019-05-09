@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pr10"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr10">
+				<Option output="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug/Pr10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr10/fast">
+				<Option output="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug/Pr10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/darkwaycode/Escritorio/Cya/Pr10\ --\ falla\ unitario/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include/DFA.h">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include/Estado.h">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include/GR.h">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/include/regla.h">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/DFA.cpp">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/Estado.cpp">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/GR.cpp">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/main.cpp">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/src/regla.cpp">
+			<Option target="Pr10"/>
+		</Unit>
+		<Unit filename="/home/darkwaycode/Escritorio/Cya/Pr10 -- falla unitario/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
